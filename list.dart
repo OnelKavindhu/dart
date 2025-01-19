@@ -1,14 +1,14 @@
 import 'dart:io';
 
 void main() {
+  print("Enter the number of subjects : ");
+  int? j = int.parse(stdin.readLineSync()!);
+
+  for (i = 0; i <= j; i++);
+
   List marks = [];
-
-  print("Enter marks: ");
-  int? mark = int.parse(stdin.readByteSync()!);
-
-  marks.add(mark);
-
-  for (int i = 0; i < marks.length; i++) {]
-    print(marks[i]);
-  }
+  print("Enter you maths marks: ");
+  int? maths = int.parse(stdin.readLineSync()!);
+  marks.add(maths);
+  print(marks);
 }
